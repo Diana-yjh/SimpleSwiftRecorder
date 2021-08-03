@@ -13,6 +13,15 @@
 		8B0C489B26B0E3FC00BAFAD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C489926B0E3FC00BAFAD9 /* Main.storyboard */; };
 		8B0C489D26B0E40100BAFAD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C489C26B0E40100BAFAD9 /* Assets.xcassets */; };
 		8B0C48A026B0E40100BAFAD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C489E26B0E40100BAFAD9 /* LaunchScreen.storyboard */; };
+		8B0C48A926B0E7C100BAFAD9 /* WAV_example.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48A826B0E7C100BAFAD9 /* WAV_example.wav */; };
+		8B0C48AE26B0EDBE00BAFAD9 /* playButtonCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48AD26B0EDBE00BAFAD9 /* playButtonCircle.png */; };
+		8B0C48B026B0EEC200BAFAD9 /* pauseButtonCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48AF26B0EEC200BAFAD9 /* pauseButtonCircle.png */; };
+		8B0C48B326B10F7000BAFAD9 /* stopRecordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48B126B10F7000BAFAD9 /* stopRecordButton.png */; };
+		8B0C48B426B10F7000BAFAD9 /* recordButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48B226B10F7000BAFAD9 /* recordButton.png */; };
+		8B0C48B626B11DE500BAFAD9 /* forwardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48B526B11DE500BAFAD9 /* forwardButton.png */; };
+		8B0C48B826B11DEA00BAFAD9 /* backwardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48B726B11DEA00BAFAD9 /* backwardButton.png */; };
+		8B0C48BE26B121C500BAFAD9 /* trashButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48BD26B121C500BAFAD9 /* trashButton.png */; };
+		8B0C48C026B12D0300BAFAD9 /* micButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C48BF26B12D0300BAFAD9 /* micButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		8B0C489C26B0E40100BAFAD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0C489F26B0E40100BAFAD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B0C48A126B0E40100BAFAD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0C48A826B0E7C100BAFAD9 /* WAV_example.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WAV_example.wav; sourceTree = "<group>"; };
+		8B0C48AD26B0EDBE00BAFAD9 /* playButtonCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButtonCircle.png; sourceTree = "<group>"; };
+		8B0C48AF26B0EEC200BAFAD9 /* pauseButtonCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButtonCircle.png; sourceTree = "<group>"; };
+		8B0C48B126B10F7000BAFAD9 /* stopRecordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopRecordButton.png; sourceTree = "<group>"; };
+		8B0C48B226B10F7000BAFAD9 /* recordButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordButton.png; sourceTree = "<group>"; };
+		8B0C48B526B11DE500BAFAD9 /* forwardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButton.png; sourceTree = "<group>"; };
+		8B0C48B726B11DEA00BAFAD9 /* backwardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backwardButton.png; sourceTree = "<group>"; };
+		8B0C48BD26B121C500BAFAD9 /* trashButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trashButton.png; sourceTree = "<group>"; };
+		8B0C48BF26B12D0300BAFAD9 /* micButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = micButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,8 @@
 		8B0C488726B0E3FB00BAFAD9 = {
 			isa = PBXGroup;
 			children = (
+				8B0C48AA26B0EA5400BAFAD9 /* Image */,
+				8B0C48A726B0E7B200BAFAD9 /* Sound */,
 				8B0C489226B0E3FC00BAFAD9 /* SwiftWAVPlayer */,
 				8B0C489126B0E3FC00BAFAD9 /* Products */,
 			);
@@ -65,6 +85,29 @@
 				8B0C48A126B0E40100BAFAD9 /* Info.plist */,
 			);
 			path = SwiftWAVPlayer;
+			sourceTree = "<group>";
+		};
+		8B0C48A726B0E7B200BAFAD9 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				8B0C48A826B0E7C100BAFAD9 /* WAV_example.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		8B0C48AA26B0EA5400BAFAD9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8B0C48AD26B0EDBE00BAFAD9 /* playButtonCircle.png */,
+				8B0C48AF26B0EEC200BAFAD9 /* pauseButtonCircle.png */,
+				8B0C48B726B11DEA00BAFAD9 /* backwardButton.png */,
+				8B0C48BD26B121C500BAFAD9 /* trashButton.png */,
+				8B0C48B226B10F7000BAFAD9 /* recordButton.png */,
+				8B0C48BF26B12D0300BAFAD9 /* micButton.png */,
+				8B0C48B526B11DE500BAFAD9 /* forwardButton.png */,
+				8B0C48B126B10F7000BAFAD9 /* stopRecordButton.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +167,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0C48B826B11DEA00BAFAD9 /* backwardButton.png in Resources */,
+				8B0C48C026B12D0300BAFAD9 /* micButton.png in Resources */,
+				8B0C48B026B0EEC200BAFAD9 /* pauseButtonCircle.png in Resources */,
 				8B0C48A026B0E40100BAFAD9 /* LaunchScreen.storyboard in Resources */,
+				8B0C48B626B11DE500BAFAD9 /* forwardButton.png in Resources */,
+				8B0C48B326B10F7000BAFAD9 /* stopRecordButton.png in Resources */,
+				8B0C48BE26B121C500BAFAD9 /* trashButton.png in Resources */,
+				8B0C48A926B0E7C100BAFAD9 /* WAV_example.wav in Resources */,
 				8B0C489D26B0E40100BAFAD9 /* Assets.xcassets in Resources */,
+				8B0C48AE26B0EDBE00BAFAD9 /* playButtonCircle.png in Resources */,
+				8B0C48B426B10F7000BAFAD9 /* recordButton.png in Resources */,
 				8B0C489B26B0E3FC00BAFAD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 283MVWC922;
+				DEVELOPMENT_TEAM = M92CLN7T7A;
 				INFOPLIST_FILE = SwiftWAVPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,7 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 283MVWC922;
+				DEVELOPMENT_TEAM = M92CLN7T7A;
 				INFOPLIST_FILE = SwiftWAVPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
